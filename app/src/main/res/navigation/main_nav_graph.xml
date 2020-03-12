@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.company.doria.ui.auth.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/sign_in_fragment">
+        <action
+            android:id="@+id/action_signInFragment_to_incidentsFragment"
+            app:destination="@id/incidentsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/incidentsFragment"
+        android:name="com.company.doria.ui.incidents.IncidentsFragment"
+        android:label="fragment_incidents"
+        tools:layout="@layout/fragment_incidents">
+        <action
+            android:id="@+id/action_incidentsFragment_to_incidentFragment"
+            app:destination="@id/incidentFragment" />
+        <action
+            android:id="@+id/action_incidentsFragment_to_createIncidentFragment"
+            app:destination="@id/createIncidentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/incidentFragment"
+        android:name="com.company.doria.ui.incident.IncidentFragment"
+        android:label="fragment__incident"
+        tools:layout="@layout/fragment_incident">
+        <argument
+            android:name="incident"
+            app:argType="com.company.doria.db.persistence.incident.Incident" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createIncidentFragment"
+        android:name="com.company.doria.ui.create_incident.CreateIncidentFragment"
+        android:label="fragment_create_inventory"
+        tools:layout="@layout/create_incident_fragment">
+    </fragment>
+</navigation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="thirty_two_dp">32dp</dimen>
+    <dimen name="one_hundred_dp">100dp</dimen>
+    <dimen name="sixty_two_dp">62dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="one_five_zero_dp">150dp</dimen>
+</resources>

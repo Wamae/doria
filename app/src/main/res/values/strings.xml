@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Doria</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="invalid_email_or_password">Invalid email or password</string>
+    <string name="signing_in">Signing in</string>
+    <string name="incidents_download_successful">Incidents download successful</string>
+    <string name="incidents_download_failed">Failed to download incidents</string>
+    <string name="incident_type">"Incident Type: "</string>
+    <string name="description">"Description: "</string>
+    <string name="status">"Status: "</string>
+    <string name="no_incidents">No incidents</string>
+    <string name="incident_types_download_successful">Incident types download successfull</string>
+    <string name="incidents_type_download_failed">Failed to download incident types</string>
+    <string name="select_incident_type">Select incident type</string>
+    <string name="location">Location</string>
+    <string name="report">Report</string>
+    <string name="location_empty_error">Enter a location</string>
+    <string name="description_empty_error">Enter description</string>
+    <string name="reporting">Reporting</string>
+    <string name="created_at">"Created At: "</string>
+    <string name="updated_at">"Updated At: "</string>
+</resources>
